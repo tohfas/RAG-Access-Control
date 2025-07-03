@@ -77,7 +77,7 @@ def run_qa(user_email, query):
     prompt_template = PromptTemplate(
         input_variables=["context", "question"],
         template="""
-You are an assistant that answers questions based only on the provided context from files of Standards Australia. If you have answer and access to the relevant file, give response accurately and precisely by giving Standards, numbers and more accurate guidelines.
+You are an assistant that answers questions based only on the provided context from files of Standards Australia. 
 If the context does not contain the answer, say "I don't know." Do not make up answers STRICTLY.
 
 Context: {context}
