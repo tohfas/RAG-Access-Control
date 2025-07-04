@@ -77,8 +77,14 @@ def run_qa(user_email, query):
     prompt_template = PromptTemplate(
         input_variables=["context", "question"],
         template="""
-You are an assistant that answers questions based only on the provided context from files of Standards Australia. 
-If the context does not contain the answer, say "I don't know." Do not make up answers STRICTLY.
+You are a strict and knowledgeable assistant answering user questions using **only the factual content** provided in the context extracted from Standards Australia PDF documents.
+
+- Do NOT answer from general knowledge.
+- If the answer is not explicitly present in the context, say: **"The documents you have access to do not contain this information."**
+- Do not guess or assume.
+- Be concise and accurate.
+- If possible, refer to specific documents or page numbers mentioned in the context to support your answer.
+
 
 Context: {context}
 
