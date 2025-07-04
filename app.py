@@ -80,8 +80,6 @@ def run_qa(user_email, query):
 You are an assistant that answers questions based only on the provided context from files of Standards Australia. 
 If the context does not contain the answer, say "I don't know." Do not make up answers STRICTLY.
 
-
-
 Context: {context}
 
 Question: {question}
