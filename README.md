@@ -23,10 +23,10 @@ Best approach - Please Note to inform me a day before testing about date and tim
 Choose an IDE like VS Code
 
 bash
-git clone https://github.com/<your-username>/rag_rbac_demo.git
+[git clone https://github.com/<your-username>/rag_rbac_demo.git](https://github.com/tohfas/RAG-Access-Control)
 cd rag_rbac_demo
 
-# Prerequisites & Setup Guide for Running Ollama with LangChain + FAISS (If testing on own - better approach is shown above)
+## Prerequisites & Setup Guide for Running Ollama with LangChain + FAISS (If testing on own - better approach is shown above)
 
 This guide walks you through installing all the necessary tools to run a Retrieval-Augmented Generation (RAG) system with role-based access control (RBAC), powered by Ollama and LangChain.
 
@@ -150,10 +150,4 @@ https://abcd-1234.ngrok-free.app/docs#/default/ask_query_query_post
 Go to Copilot Studio -> Agent -> Poly -> Overview -> Topics -> See all -> System -> Conversation Poly -> URL (paste the url here) -> Headers and Body (Click Edit) -> Body (Go to Edit JSON, change email to your email, eg: test1@clearai.com.au) -> Open IDE where your git clone is -> Go to user_access.json -> Change/Add license in the same format for your email id if not present in the same format as others -> Start conversation in Copilot Studio Agent (Poly).
 
 
-## Setup Instructions
-
-### 1. Clone the Repository
-
-bash
-git clone https://github.com/<your-username>/rag_rbac_demo.git
-cd rag_rbac_demo
+# THANK YOU!!
